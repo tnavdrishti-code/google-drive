@@ -167,6 +167,11 @@ h1 { font-size: clamp(2rem, 7vw, 3.65rem); line-height: 1.06; }
 }
 .btn btn--small { padding: 0.58rem 0.95rem; font-size: 0.92rem; color: pink; }
 
+.giffy {
+  width: 1600px;
+  height: 600px
+}
+
 .btn:focus-visible,
 .menu-toggle:focus-visible,
 .main-nav a:focus-visible,
@@ -281,6 +286,10 @@ input:focus-visible {
   color: var(--royal);
   font-style: normal;
   font-weight: 600;
+}
+.logos {
+  width: 20px;
+  height: 20px;
 }
 
 .cta { padding-bottom: 5.2rem; }
